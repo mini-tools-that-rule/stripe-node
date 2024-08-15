@@ -17,6 +17,7 @@ import {ConnectionTokens as TerminalConnectionTokens} from './resources/Terminal
 import {CreditReversals as TreasuryCreditReversals} from './resources/Treasury/CreditReversals.js';
 import {Customers as TestHelpersCustomers} from './resources/TestHelpers/Customers.js';
 import {DebitReversals as TreasuryDebitReversals} from './resources/Treasury/DebitReversals.js';
+import {DisputeSettlementDetails as IssuingDisputeSettlementDetails} from './resources/Issuing/DisputeSettlementDetails.js';
 import {Disputes as IssuingDisputes} from './resources/Issuing/Disputes.js';
 import {EarlyFraudWarnings as RadarEarlyFraudWarnings} from './resources/Radar/EarlyFraudWarnings.js';
 import {Features as EntitlementsFeatures} from './resources/Entitlements/Features.js';
@@ -157,6 +158,7 @@ export const Issuing = resourceNamespace('issuing', {
   Authorizations: IssuingAuthorizations,
   Cardholders: IssuingCardholders,
   Cards: IssuingCards,
+  DisputeSettlementDetails: IssuingDisputeSettlementDetails,
   Disputes: IssuingDisputes,
   PersonalizationDesigns: IssuingPersonalizationDesigns,
   PhysicalBundles: IssuingPhysicalBundles,
