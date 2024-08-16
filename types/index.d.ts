@@ -53,7 +53,6 @@
 ///<reference path='./Issuing/AuthorizationsResource.d.ts' />
 ///<reference path='./Issuing/CardholdersResource.d.ts' />
 ///<reference path='./Issuing/CardsResource.d.ts' />
-///<reference path='./Issuing/DisputeSettlementDetailsResource.d.ts' />
 ///<reference path='./Issuing/DisputesResource.d.ts' />
 ///<reference path='./Issuing/PersonalizationDesignsResource.d.ts' />
 ///<reference path='./Issuing/PhysicalBundlesResource.d.ts' />
@@ -190,7 +189,6 @@
 ///<reference path='./Issuing/Authorizations.d.ts' />
 ///<reference path='./Issuing/Cardholders.d.ts' />
 ///<reference path='./Issuing/Cards.d.ts' />
-///<reference path='./Issuing/DisputeSettlementDetails.d.ts' />
 ///<reference path='./Issuing/Disputes.d.ts' />
 ///<reference path='./Issuing/PersonalizationDesigns.d.ts' />
 ///<reference path='./Issuing/PhysicalBundles.d.ts' />
@@ -375,7 +373,6 @@ declare module 'stripe' {
       cards: Stripe.Issuing.CardsResource;
       cardholders: Stripe.Issuing.CardholdersResource;
       disputes: Stripe.Issuing.DisputesResource;
-      disputeSettlementDetails: Stripe.Issuing.DisputeSettlementDetailsResource;
       personalizationDesigns: Stripe.Issuing.PersonalizationDesignsResource;
       physicalBundles: Stripe.Issuing.PhysicalBundlesResource;
       tokens: Stripe.Issuing.TokensResource;
